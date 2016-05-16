@@ -12,8 +12,19 @@ module.exports = window.api = {
 		.then(function(response) {
 			return response.json()
 		})
-		.then(function(data){
-			console.log(data);
-		})
+		// .then(function(data){
+		// 	console.log(data);
+		// })
 	}
 }
+
+/* 
+
+usage: 
+
+api.get('topics/defaults')
+	.then(function(data){
+		// do something with the data
+	}
+
+	*/
