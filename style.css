@@ -1,2 +1,35 @@
+.header .active {
+  font-weight: 900; }
+
+.image-preview {
+  display: inline-block;
+  position: relative; }
+  .image-preview img {
+    height: 200px;
+    width: 300px; }
+  .image-preview video {
+    height: 200px;
+    width: 300px;
+    vertical-align: middle;
+    background-color: black; }
+  .image-preview .glyphicon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: .5;
+    color: #fff; }
+  .image-preview .inset {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    opacity: .7; }
+
 .black {
   color: black; }
+
+.topic {
+  text-align: center; }
